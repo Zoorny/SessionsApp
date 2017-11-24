@@ -24,7 +24,7 @@ public class MyServlet extends HttpServlet {
             out.println("<h1>" + "Hello, " +req.getParameter("login") +"</h1>");
             if (req.getParameter("password").equals("pass")) {
                 out.println("<h2> Your local time is: " + date.toString() + "</h2>");
-                out.println("<h2> Browser info: " + req.getHeader("User-Agent") + "</h2>");
+                out.println("<h2> Your user agent: " + req.getHeader("User-Agent") + "</h2>");
             } else
                 out.println("<h2>" + "Your password is not correct" +"</h2>");
             out.println("</body>");
