@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  <img src="images/hello.jpg" />
+  <h1>Empty</h1>
   </body>
 </html>
