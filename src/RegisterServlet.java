@@ -7,7 +7,7 @@ import java.io.*;
 public class RegisterServlet extends HttpServlet {
 
     protected void register(String login, String password){
-        String filePath = "C:\\Users\\Zoorny\\IdeaProjects\\SessionsApp\\users.txt";
+        String filePath = "/users.txt";
         String out = '"' + login + "@" + password +'"' + " ";
         try {
             FileWriter writer = new FileWriter(filePath, true);

@@ -19,7 +19,7 @@ public class MyServlet extends HttpServlet {
     protected String readUsers(){
         String out = "";
         try {
-            FileInputStream fstream = new FileInputStream("C:\\Users\\Zoorny\\IdeaProjects\\SessionsApp\\users.txt");
+            FileInputStream fstream = new FileInputStream("/users.txt");
             BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
             String strLine;
             while ((strLine = br.readLine()) != null) {
