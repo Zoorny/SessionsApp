@@ -1,9 +1,7 @@
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.*;
-import java.util.Enumeration;
 
 @WebServlet("login")
 public class MyServlet extends HttpServlet {

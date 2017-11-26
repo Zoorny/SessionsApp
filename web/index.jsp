@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  <h1>Empty</h1>
+  <form action="Redirect" method="POST">
+    <input type="submit" value="ToLogin" />
+  </form>
   </body>
 </html>
